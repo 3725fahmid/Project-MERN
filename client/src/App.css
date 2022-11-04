@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Josefin+Sans:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+.main {
+  width: 100%;
+  height: 94vh;
+  background-color: rgb(59, 81, 87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Signup page */
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-content {
+  width: 80%;
+  height: 80vh;
+  margin-bottom: 5px;
+  padding: 5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.662) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+ .signup-content {
+  display: flex;
+}
+.left-Sigup {
+  width: 60%;
+}
+.right_Sigup{
+  width: 20%;
+  margin-left: -50px;
+  position: relative;
+}
+.form-control {
+  width: 100vw;
+}
+.registerUser {
+  position: absolute;
+  bottom: 400px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.registerUser:hover {
+  color: rgb(25, 0, 255);
+  font-weight: 400;
+} 
+
+/* Login design  */
+
+
+.Login-content {
+  width: 50%;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.662) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.form-control {
+  width: 60%;
+}
+
+/* Contact page */
+
+.con-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+
+.details {
+  display: flex;
+  gap: 7rem;
+  justify-content: space-between;
+}
+.PEA {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+.container-contact {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+}
+
+/* Home page  */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  color: aliceblue;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background: rgb(6,103,94);
+  background: linear-gradient(90deg, rgba(6,103,94,1) 0%, rgba(50,164,122,1) 48%, rgba(23,177,95,1) 49%, rgba(2,4,4,1) 49%, rgba(6,97,13,1) 49%, rgba(14,156,104,1) 100%);
+}
+
+.home-div {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*profile design*/
+
+.profile-conatiner {
+  width: 70%;
+  height: 80vh;
+  border-radius: 10px;
+  color: rgb(0, 46, 86);
+  /* font-size: 20px; */
+  padding: 3rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.linkD {
+  text-decoration: none;
+}
+
+/* About page  */
+
+.about-pro {
+  margin-top:-143px;
+  
+  cursor: pointer;
+}
+.header-pro {
+  border-bottom:1px solid rgb(0, 0, 0);
+  width: 70%;
+  margin-bottom: 3rem;
+}
+
+/* @media screen  */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .right_Sigup{
+    display: none;
+    position: relative;
+  }
+  .left-Sigup {
+    margin-left: 7rem;
+    padding:0 0;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .signup-content {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .registerUser {
+    position: absolute;
+    bottom: 210px;
+    left: 27%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  .Login-content {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.662) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+  }
+}
+@media screen and (max-width: 900px) {
+.signup-content {
+  width: 90%;
+  height: 80vh;
+  margin-bottom: 5px;
+  padding: 3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.662) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+ .signup-content {
+  display: flex;
+}
+.left-Sigup {
+  width: 100%;
+}
+.right_Sigup{
+  position: relative;
+}
+.form-control {
+  width: 100vw;
+}
+.registerUser {
+  position: absolute;
+  bottom: 400px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: 300;
+  cursor: pointer;
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 900px) { 
+  .left-Sigup {
+    width: 100%;
+    margin-left: 0;
+    padding:2rem;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .signup-content {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .registerUser {
+    position: absolute;
+    bottom: 200px;
+    left: 95px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .container {
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .right_Sigup{
+    display: none;
+    position: relative;
+  }
+  .left-Sigup {
+    margin-left: 0;
+    padding:1rem ;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .signup-content {
+    width: 100%;
+    height: auto;
+    margin-top: 7rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .registerUser {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
